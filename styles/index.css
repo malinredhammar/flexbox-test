@@ -1,0 +1,241 @@
+html {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+/*flexbox*/
+.container {
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.item-1 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+
+.item-2 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+
+.item-3 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+
+.container2 {
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+   
+}
+.item-4 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    min-height: 78px;
+    /*It still does not work for me to make the boxes stretch*/
+
+}
+.item-5 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    min-height: 78px;
+}  
+.item-6 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    min-height: 78px;
+}
+
+.container3 {
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+}
+.item-7 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+.item-8 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+.item-9 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+.container4 {
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+}
+.item-10 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+.item-11 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+.item-12 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    position: relative;
+    top: 25px;
+    right: 10px;
+
+}
+.container5 {
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+
+}
+.item-13 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+.item-14 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+.item-15 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    
+}
+.container6 {
+    background-color: blueviolet;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 468px;
+    height: 160px;
+    border-radius: 5px;
+
+}
+.item-16 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
+.item-17 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    flex-grow: 2;
+}
+.item-18 {
+    background-color: rgb(97, 212, 97);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+}
